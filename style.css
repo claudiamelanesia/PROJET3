@@ -1,0 +1,165 @@
+.baseline
+{
+	height: 227px;
+	padding-top: 112px;
+	padding-bottom: 146px;
+	padding-left: 64px;
+}
+
+
+ .prenom
+{
+	color:#FECA07;
+   
+}
+.sub
+{
+	text-decoration: underline #FECA07;
+}
+.date
+{
+	font-size: 0.8em;
+}
+
+
+aside 
+{
+	padding: 0 !important;
+	background-color: #FECA07;
+		
+}
+
+section h2
+{
+	font-size: 1.5em;
+}
+
+.contact
+{
+	
+	border: 1px white;
+	height: 391px;
+	width: 378px;
+
+}
+.aproposdemoi
+{
+	
+	border: 1px white;
+	text-align:justify;
+	height: 781px;
+	width: 378px;
+
+
+}
+.loisirs
+{
+	
+	border: 1px white;
+	height: 187px;
+	width: 378px;
+
+}
+
+h4
+{
+	background: #404040;
+	padding: 10px;
+	color:#FECA07;
+	text-align: center;
+
+}
+
+.info1
+{
+	padding: 10px 30px;
+}
+
+.contact1
+{
+	padding: 10px 25px;
+	margin-bottom: 4px;
+	line-height: 1em;
+}
+
+.icon
+{
+	padding: 15px 32px;
+	border-radius: 70px;
+	border:3px solid black;
+	margin-left: 15px;
+}
+
+
+.formation
+
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 35px;
+	height: 395px;
+}
+
+
+}
+.detailformation p
+{
+ 	font-size:0.8em
+
+}
+
+.items
+{
+	border-bottom: 2px solid #FECA07;
+	margin-bottom: 20px;
+	margin-top:20px;
+	width: 70%
+	line-height:70%;
+	padding: 20px;
+}
+.h1 fas
+{
+	color:#FECA07;
+}
+.ep
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 35px;
+	height: 563px
+}
+	
+
+.photo
+{
+	height:325px;
+	width:378px;
+	padding-top: 68px;
+}
+
+.maphoto
+
+{
+	height: 214px;
+	width: 210px;
+		
+}
+.fa-book
+
+{
+	color: #FECA07;
+	padding-left: 70px;
+	padding-right: 40px;
+}
+
+.fa-building
+
+{
+	color: #FECA07;
+}
+
+.fa-black-tie
+
+{
+	color: #FECA07;
+}
