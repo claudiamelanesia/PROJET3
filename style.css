@@ -1,9 +1,8 @@
 .baseline
 {
-	height: 227px;
 	padding-top: 112px;
-	padding-bottom: 146px;
-	padding-left: 64px;
+	padding-bottom: 120px;
+	padding-left: 40px;
 }
 
 
@@ -16,10 +15,6 @@
 {
 	text-decoration: underline #FECA07;
 }
-.date
-{
-	font-size: 0.8em;
-}
 
 
 aside 
@@ -29,17 +24,12 @@ aside
 		
 }
 
-section h2
-{
-	font-size: 1.5em;
-}
 
 .contact
 {
 	
 	border: 1px white;
-	height: 391px;
-	width: 378px;
+	height: 350px;
 
 }
 .aproposdemoi
@@ -47,21 +37,17 @@ section h2
 	
 	border: 1px white;
 	text-align:justify;
-	height: 781px;
-	width: 378px;
-
-
+	height: 700px;
+	
 }
 .loisirs
 {
 	
 	border: 1px white;
-	height: 187px;
-	width: 378px;
-
+	
 }
 
-h4
+section h2
 {
 	background: #404040;
 	padding: 10px;
@@ -80,6 +66,7 @@ h4
 	padding: 10px 25px;
 	margin-bottom: 4px;
 	line-height: 1em;
+
 }
 
 .icon
@@ -97,38 +84,37 @@ h4
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	margin-left: 35px;
-	height: 395px;
+	
 }
 
-
-}
-.detailformation p
-{
- 	font-size:0.8em
-
-}
 
 .items
 {
 	border-bottom: 2px solid #FECA07;
-	margin-bottom: 20px;
-	margin-top:20px;
-	width: 70%
-	line-height:70%;
-	padding: 20px;
+	margin-bottom: 30px;	
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: -0.08em;
+
 }
-.h1 fas
+
+.h2 
 {
 	color:#FECA07;
 }
+
 .ep
 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	margin-left: 35px;
-	height: 563px
 }
-	
+.recomendations
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 35px;
+}
 
 .photo
 {
@@ -144,22 +130,89 @@ h4
 	width: 210px;
 		
 }
+
 .fa-book
 
 {
 	color: #FECA07;
-	padding-left: 70px;
-	padding-right: 40px;
-}
+	padding-left: 40px;
+	padding-right: 25px;
+	
+ }
 
 .fa-building
 
 {
 	color: #FECA07;
+	padding-left: 40px;
+	padding-right: 25px;
 }
 
 .fa-black-tie
 
 {
 	color: #FECA07;
+	padding-left: 40px;
+	padding-right: 25px;
+
+}
+
+.container
+{
+	height: 1684px;
+	width: 1190px;
+}
+
+body
+{
+	font-family: roboto;
+	font-size: 12px;
+	
+}
+
+
+.formation .fa, .ep .fa {
+	color: #FECA07;	
+	padding-right: 8px;
+
+}
+
+ .icon1
+ {
+ 	padding-right: 200px;
+ 	margin-left: 20px;
+   	 	
+ }
+
+ .icon2
+ {
+ 	
+ 	padding-right: 150px;
+ 	margin-left: 20px;
+ 	
+ }
+
+.reco1
+ {
+ 	font-weight: bold;
+
+ }
+
+.reco2
+{
+	text-transform: uppercase;
+	
+}
+
+.reco3
+{
+	margin-bottom: 0px;
+}
+.reco4
+{
+	font-weight: normal;
+}
+.recomendations
+{
+	margin-left: 50px;
 }
