@@ -9,14 +9,20 @@
  .prenom
 {
 	color:#FECA07;
+	text-transform: uppercase;
+	font-weight: bold;
    
 }
 .sub
 {
 	text-decoration: underline #FECA07;
+	
 }
 
-
+.baseline h2{
+	font-weight: bold;
+	font-size: 20px;
+}
 aside 
 {
 	padding: 0 !important;
@@ -58,17 +64,24 @@ section h2
 
 .info1
 {
-	padding: 10px 30px;
+	padding: 0 10%;
+	font-size: 20px;
 }
 
 .contact1
 {
-	padding: 10px 25px;
-	margin-bottom: 4px;
+	font-size: 20px;
+	margin-bottom: 15px;
 	line-height: 1em;
+	padding: 0 10%;
 
 }
 
+h6{
+	padding: 0 10%;
+	font-size: 20px;
+	margin-bottom: 0px;
+}
 .icon
 {
 	padding: 15px 32px;
@@ -78,7 +91,7 @@ section h2
 }
 
 
-.formation
+formation
 
 {
 	display: grid;
@@ -95,7 +108,7 @@ section h2
 	padding: 10px;
 	text-transform: uppercase;
 	letter-spacing: -0.08em;
-
+	
 }
 
 .h2 
@@ -103,13 +116,13 @@ section h2
 	color:#FECA07;
 }
 
-.ep
+ep
 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	margin-left: 35px;
 }
-.recomendations
+recomendations
 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -119,7 +132,6 @@ section h2
 .photo
 {
 	height:325px;
-	width:378px;
 	padding-top: 68px;
 }
 
@@ -127,7 +139,7 @@ section h2
 
 {
 	height: 214px;
-	width: 210px;
+	border:solid 4px #FECA07;
 		
 }
 
@@ -157,11 +169,6 @@ section h2
 
 }
 
-.container
-{
-	height: 1684px;
-	width: 1190px;
-}
 
 body
 {
@@ -171,13 +178,13 @@ body
 }
 
 
-.formation .fa, .ep .fa {
+formation .fa, .ep .fa {
 	color: #FECA07;	
 	padding-right: 8px;
 
 }
 
- .icon1
+ icon1
  {
  	padding-right: 200px;
  	margin-left: 20px;
@@ -216,3 +223,9 @@ body
 {
 	margin-left: 50px;
 }
+
+.detailformation{
+	font-size: 16px;
+	text-align: justify;
+}
+/***** Css Responsive ****************>
