@@ -1,104 +1,111 @@
-.baseline
-{
+/* Définition des polices personnalisées */
+
+@font-face
+font-family: 'Roboto', sans-serif;
+
+/* Eléments principaux de la page */
+
+
+.container{
+	max-width: 1190px;
+	border:1px solid;
+
+}
+
+body{
+	font-family: roboto;
+	font-size: 12px;	
+}
+
+/* Eléments principaux de header */
+
+.col-md-4{
+	background-color: #FECA07;
+}
+
+.photo{
+	height:325px;
+	padding-top: 68px;
+}
+
+.maphoto{ 
+	height: 214px;
+	border:solid 3px rgba(64, 64, 64, 0.2);
+}
+
+.col-md-8{
+	background-color: white;
+}
+		
+.baseline{
 	padding-top: 112px;
 	padding-bottom: 120px;
 	padding-left: 40px;
 }
 
-
- .prenom
-{
+ .prenom{
 	color:#FECA07;
 	text-transform: uppercase;
-	font-weight: bold;
-   
-}
-.sub
-{
-	text-decoration: underline #FECA07;
-	
+	font-weight: bold;   
 }
 
-.baseline h2{
-	font-weight: bold;
-	font-size: 20px;
-}
-aside 
-{
-	padding: 0 !important;
-	background-color: #FECA07;
-		
+.sub{
+	text-decoration: underline #FECA07;	
 }
 
+/* Corps 1*/
 
-.contact
-{
-	
-	border: 1px white;
-	height: 350px;
-
-}
-.aproposdemoi
-{
-	
-	border: 1px white;
-	text-align:justify;
-	height: 700px;
-	
-}
-.loisirs
-{
-	
-	border: 1px white;
-	
+aside {
+	padding: 0 !important;		
 }
 
-section h2
-{
-	background: #404040;
-	padding: 10px;
+section h2{
+	background: #404040;	
 	color:#FECA07;
 	text-align: center;
+}
+
+h6 {
+	padding-left: 25px;
+	padding-right: 30px;
+}
+
+.contact1{
+	padding-left: 25px;
+	padding-right: 30px;
+}
+
+.info1{
+	padding-left: 25px;
+	padding-right: 30px;
+	text-align: justify;
+	padding-top: 15px;
 
 }
 
-.info1
-{
-	padding: 0 10%;
-	font-size: 20px;
+.aproposdemoi{
+	height: 700px;
 }
 
-.contact1
-{
-	font-size: 20px;
-	margin-bottom: 15px;
-	line-height: 1em;
-	padding: 0 10%;
-
-}
-
-h6{
-	padding: 0 10%;
-	font-size: 20px;
-	margin-bottom: 0px;
-}
-.icon
-{
-	padding: 15px 32px;
-	border-radius: 70px;
-	border:3px solid black;
-	margin-left: 15px;
-}
-
-
-formation
-
-{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+.icon{
+	color: #404040;	
+	padding: 20px;
+	border-radius: 50%;
+	border:3px solid #404040;	
 	margin-left: 35px;
 	
 }
+.icon fa{
+	height: 45px;
+	width:45px;
+}
+.loisirs{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+/* Corps 2 */
 
 
 .items
@@ -107,125 +114,27 @@ formation
 	margin-bottom: 30px;	
 	padding: 10px;
 	text-transform: uppercase;
-	letter-spacing: -0.08em;
+	font-weight: bold;
 	
 }
 
-.h2 
-{
-	color:#FECA07;
+h2.items{
+	font-weight: bold;
 }
 
-ep
-{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	margin-left: 35px;
-}
-recomendations
-{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	margin-left: 35px;
-}
-
-.photo
-{
-	height:325px;
-	padding-top: 68px;
-}
-
-.maphoto
-
-{
-	height: 214px;
-	border:solid 4px #FECA07;
-		
-}
-
-.fa-book
-
-{
+.fa-graduation-cap,.fa-briefcase, .fa-pencil-alt, .fa-dot-circle,.fa-circle{
 	color: #FECA07;
-	padding-left: 40px;
-	padding-right: 25px;
-	
- }
-
-.fa-building
-
-{
-	color: #FECA07;
-	padding-left: 40px;
-	padding-right: 25px;
-}
-
-.fa-black-tie
-
-{
-	color: #FECA07;
-	padding-left: 40px;
-	padding-right: 25px;
-
-}
-
-
-body
-{
-	font-family: roboto;
-	font-size: 12px;
-	
-}
-
-
-formation .fa, .ep .fa {
-	color: #FECA07;	
-	padding-right: 8px;
-
-}
-
- icon1
- {
- 	padding-right: 200px;
- 	margin-left: 20px;
-   	 	
- }
-
- .icon2
- {
- 	
- 	padding-right: 150px;
- 	margin-left: 20px;
- 	
- }
-
-.reco1
- {
- 	font-weight: bold;
+	padding: 17px;
 
  }
 
-.reco2
-{
-	text-transform: uppercase;
-	
+
+
+/* recomendations*/
+h3{
+	font-weight: bold;
 }
 
-.reco3
-{
-	margin-bottom: 0px;
+.bol{
+	font-weight: bold;
 }
-.reco4
-{
-	font-weight: normal;
-}
-.recomendations
-{
-	margin-left: 50px;
-}
-
-.detailformation{
-	font-size: 16px;
-	text-align: justify;
-}
-/***** Css Responsive ****************>
